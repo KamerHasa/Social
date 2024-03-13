@@ -1,0 +1,50 @@
+body{
+    font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  text-align: center;
+  background-color: black;
+}
+img
+{
+    border-radius:50%;
+    overflow: hidden;
+    padding: 10px;
+    height: 100px;
+}
+
+.contenuto{
+   border: solid 3px black;
+    height: 475px;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color:rgb(43, 41, 41);
+    box-shadow: 0 0 10px rgba(233, 192, 192, 0.5);
+    border-top: 10px;
+    border-radius: 15px;
+}
+h3{
+    color: yellow;
+}
+button{
+    width: 75%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(87, 83, 83);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+.link{
+    padding: 10px;
+}
